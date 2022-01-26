@@ -1,0 +1,8 @@
+- Crear una clase `Node` que debe contener:
+  - una letra
+  - una colección de `Node` que correspondan al siguiente nivel del árbol
+  - una función para buscar una letra entre los `Node` del siguiente nivel
+- Crear una clase `StringFinder` que debe contener:
+  - una colección de `Node` que solo contenga los `Node` del primer nivel
+  - una función que cree la estructura de `Node` a partir de un diccionario de strings(ya que vamos a usar javascript, valdrá un simple array de strings)
+  - una función que inicie la búsqueda a través de los diferentes `Node`
